@@ -1,38 +1,75 @@
 * {
-margin: 0;
-padding: 0;
+    margem : 0 ;
+    estofamento : 0 ;
 }
-body{
-font-family: 'Segoe UI Light', Arial, sans-serif;
+corpo {
+    -webkit-font-smoothing : antialias;
+    família de fontes : 'Roboto' , sans-serif;
 }
-header {
-  background-color: #2b579a;
-  height: 100px;
+nav {
+    cor de fundo : rgba ( 0 ,  0 ,  0 ,  0,8 );
 }
-h1{
-color: #fff;
-font-size: 32px;
-font-weight: normal;
-padding: 20px 30px;
+nav  ul {
+    tipo de estilo de lista : nenhum;
 }
-section{
-margin: 20px;
+nav  li {
+    display : bloco embutido;
+    estofamento : 0,7 em  0 ;
 }
-
-h2{
-color: #444;
-font-size: 20px;
-font-weight: normal;
+nav  li  a {
+    cor : # ffffff ;
+    decoração de texto : nenhuma;
+    tamanho da fonte : 1 em ;
+    estofamento : 0  0,8 em ;
+    opacidade : 1 ;
+    -webkit-transição : opacidade 0,2 s ;
+    transição : opacidade 0,2 s ;
 }
-li{
-margin-top: 20px;
-margin-left: 20px;
-color: #444;
-font-size: 20px;
+nav  li  a : passe o mouse {
+    opacidade : 0,65 ;
 }
-footer p {
-color: #898989;
-text-align: center;
-font-size: 12px;
-margin-top: 50px;
+.content ,  nav  ul {
+    margem : 0 automático;
+    largura : 900 px ;
+}
+.conteúdo {
+    margem superior : 2,5 em ;
+}
+.conteúdo  h1 , 
+.conteúdo  h2 , 
+.conteúdo  h3 {
+    peso da fonte : 500 ;
+    margem inferior : 0,5 em ;
+}
+.conteúdo  h1 {
+    tamanho da fonte : 2,3 em ;
+    
+}
+.conteúdo  h2 , 
+.conteúdo  h3 {
+    borda superior : 1 px sólido # ccc ;
+    margem superior : 2,5 em ;
+    estofamento : 1,3 em ;
+    
+}
+.conteúdo  p , 
+.li de conteúdo  {
+    tamanho da fonte : 1,2 em ;
+    peso da fonte : 300 ;
+    alinhar texto : justificar;
+}
+.li de conteúdo  {
+    margem inferior : 0,5 em ;
+}
+.conteúdo  ul {
+    margem superior : 1,2 em ;
+    margem esquerda : 2 em ;
+}
+rodapé {
+    margem superior : 3 em ;
+    estofamento : 2 em  0 ;
+    cor de fundo : # f2f2f2 ;
+    cor : # 888 ;
+    tamanho da fonte : 0,8 em ;
+    alinhamento de texto : centro;
 }
